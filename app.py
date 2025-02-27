@@ -4,7 +4,7 @@ from tensorflow.keras.preprocessing import image
 import numpy as np
 from PIL import Image
 
-model = tf.keras.models.load_model('model/your_model.h5')
+model = tf.keras.models.load_model('keras_model.h5')
 
 # Funzione per fare la previsione
 def predict_image(img):
